@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+}
+body,
+html {
+  scroll-behavior: smooth;
+}
+button {
+  border-radius: 5px;
+  color: white;
+  background-color: #ee4248;
+  border: none;
+}
+/* body{
+  margin-top: 10px;
+  margin: 0 auto;
+} */
+/* header .header{
+  position: fixed;
+  top: 0;
+} */
+span {
+  color: #ee4248;
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  /* height: 200px; */
+}
+header .container .control {
+  display: flex;
+  padding: 15px 150px;
+  justify-content: space-between;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.555);
+}
+header .container .control .header-section {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  padding-top: 20px;
+  color: #4c585d;
+}
+header .container .control .header-icons {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  color: #4c585d;
+}
+main section .control-one {
+  padding: 100px 150px;
+  display: flex;
+  gap: 15px;
+  padding-bottom: 100px;
+}
+main section .control-one .left-side h1 {
+  font-size: 40px;
+  padding-bottom: 29px;
+}
+main section .control-one .left-side h1 span {
+  color: #ee4248;
+}
+main section .control-one .left-side p {
+  padding-bottom: 25px;
+  color: #30444e;
+}
+main section .control-one .left-side button {
+  width: 100px;
+  height: 40px;
+}
+main section .control-two {
+  padding: 10px 150px;
+  display: flex;
+  gap: 75px;
+  padding-bottom: 50px;
+  /* background-color: #f6f6f6; */
+}
+main section .control-two .right-side {
+  padding-top: 80px;
+}
+main section .control-two .right-side h2 {
+  font-size: 32px;
+}
+main section .control-two .right-side .text {
+  padding: 25px 0px;
+  padding-right: 100px;
+  font-size: 18px;
+  color: #30444e;
+}
+.control-three {
+  padding: 100px 150px;
+  display: flex;
+  gap: 75px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.control-three h2 {
+  display: block;
+  width: 1300px;
+  text-align: center;
+  font-size: 32px;
+}
+.control-three .left-side {
+  width: 250px;
+}
+.control-three .center-side {
+  width: 300px;
+}
+.control-three .right-side {
+  width: 300px;
+}
+.control-three h3 {
+  font-size: 28px;
+  padding: 15px 0;
+}
+.control-three p {
+  font-size: 18px;
+  color: #4c585d;
+  padding-bottom: 30px;
+}
+.control-three button {
+  width: 100px;
+  height: 40px;
+}
+footer .control-footer {
+  display: flex;
+  gap: 40px;
+  padding: 30px 100px;
+  flex-wrap: wrap;
+}
+footer .left-side {
+  width: 300px;
+}
+footer .right-side {
+  width: 250px;
+}
+footer .bottom-side {
+  width: 1300px;
+  height: 60px;
+  color: white;
+  background-color: #ee4248;
+  text-align: center;
+  padding-top: 18px;
+  font-size: 18px;
+}
+footer .control-footer .left-side image {
+  margin-bottom: 40px;
+}
+footer .control-footer .left-side h3 {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+footer .control-footer .left-side p {
+  color: #4c585d;
+  font-size: 18px;
+}
+footer .control-footer .right-side h2 {
+  padding-bottom: 10px;
+  font-size: 24px;
+  padding-top: 20px;
+}
+footer .control-footer .right-side a {
+  color: #4c585d;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+main section .control-one:hover {
+  background-color: #f6f6f6;
+  transition: 1s;
+}
+main section .control-two:hover {
+  background-color: #f6f6f6;
+  transition: 1s;
+}
+main section .control-three:hover {
+  background-color: #f6f6f6;
+  transition: 1s;
+}
